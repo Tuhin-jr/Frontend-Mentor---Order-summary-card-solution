@@ -52,7 +52,8 @@ body {
 .card {
   width: 451px;
   border-radius: 15px;
-  background: #ffffff;
+  background: var(--veryPaleBlue);
+  box-shadow: 0 20px 40px -30px var(--desaturatedBlue);
 }
 .card img {
   border-radius: 15px 15px 0 0;
@@ -73,7 +74,7 @@ body {
 .card-body p {
   text-align: center;
   color: var(--desaturatedBlue);
-  line-height: 1.6875rem;
+  line-height: 1.75rem;
   padding: 18px 24px;
 }
 
@@ -121,17 +122,18 @@ body {
 }
 
 .btn {
-  font-size: 15px;
+  font-size: 1rem;
   font-family: 'Red Hat Display', sans-serif;
   width: 100%;
   background: var(--brightBlue);
-  padding: 14px 30px;
+  padding: 15px 30px;
   border: none;
   border-radius: 10px;
   color: var(--veryPaleBlue);
   font-weight: 700;
   margin: 32px 0;
   cursor: pointer;
+  box-shadow: 0 10px 15px var(--paleBlue);
 }
 .btn:active,
 .btn:hover {
