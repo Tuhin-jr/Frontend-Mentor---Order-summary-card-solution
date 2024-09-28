@@ -67,7 +67,7 @@ body {
 }
 
 .card-body h1 {
-  font-size: 1.625rem;
+  font-size: 1.75rem;
   text-align: center;
   color: var(--darkBlue);
 }
@@ -83,7 +83,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background: var(--veryPaleBlue);
-  padding: 24px;
+  padding: 22px 24px 21px;
   border-radius: 15px;
 }
 .plan {
@@ -97,11 +97,11 @@ body {
 }
 .time {
   text-align: left;
-  line-height: 1.5rem;
 }
 .time h2 {
   font-size: 1rem;
   color: var(--darkBlue);
+  margin-bottom: 8px;
 }
 
 .time h3 {
@@ -122,7 +122,7 @@ body {
 }
 
 .btn {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-family: 'Red Hat Display', sans-serif;
   width: 100%;
   background: var(--brightBlue);
@@ -141,6 +141,7 @@ body {
 }
 
 .card-body a {
+  font-size: 0.9375rem;
   display: inline-block;
   font-family: 'Red Hat Display', sans-serif;
   text-decoration: none;
