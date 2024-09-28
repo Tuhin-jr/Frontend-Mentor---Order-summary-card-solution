@@ -53,7 +53,7 @@ body {
   width: 451px;
   border-radius: 15px;
   background: var(--veryPaleBlue);
-  box-shadow: 0 20px 30px -20px var(--desaturatedBlue);
+  box-shadow: 0 15px 40px -30px var(--desaturatedBlue);
 }
 .card img {
   border-radius: 15px 15px 0 0;
