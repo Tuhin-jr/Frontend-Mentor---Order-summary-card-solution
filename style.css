@@ -53,7 +53,7 @@ body {
   width: 451px;
   border-radius: 15px;
   background: var(--veryPaleBlue);
-  box-shadow: 0 20px 40px -30px var(--desaturatedBlue);
+  box-shadow: 0 40px 40px -30px var(--desaturatedBlue);
 }
 .card img {
   border-radius: 15px 15px 0 0;
@@ -61,7 +61,7 @@ body {
 }
 
 .card-body {
-  padding: 43px 48px 48px;
+  padding: 42px 48px 48px;
   border-radius: 0 0 15px 15px;
   text-align: center;
 }
@@ -74,7 +74,7 @@ body {
 .card-body p {
   text-align: center;
   color: var(--desaturatedBlue);
-  line-height: 1.75rem;
+  line-height: 1.625rem;
   padding: 18px 24px;
 }
 
@@ -83,7 +83,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background: var(--veryPaleBlue);
-  padding: 22px 24px 21px;
+  padding: 22px 24px 24px;
   border-radius: 15px;
 }
 .plan {
@@ -133,7 +133,7 @@ body {
   font-weight: 700;
   margin: 32px 0;
   cursor: pointer;
-  box-shadow: 0 20px 30px -10px var(--desaturatedBlue);
+  box-shadow: 0 25px 10px var(--paleBlue);
 }
 .btn:active,
 .btn:hover {
